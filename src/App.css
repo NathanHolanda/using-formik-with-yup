@@ -1,3 +1,7 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+}
 form {
   background-color: #fff;
   padding: 20px;
@@ -20,6 +24,9 @@ textarea {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+textarea {
+  resize: none;
+}
 .checkbox-group,
 .radio-group {
   display: flex;
@@ -27,6 +34,7 @@ textarea {
   margin-top: 5px;
 }
 button {
+  width: 150px;
   margin-top: 20px;
   padding: 10px 15px;
   background-color: #4caf50;
